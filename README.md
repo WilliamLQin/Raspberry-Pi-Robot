@@ -48,9 +48,18 @@ Note: You can automate step one by adding these commands to /etc/rc.local. Then,
 * Use a phone to connect to the Raspberry Pi with a Bluetooth terminal
 
 3) Control the robot with either Bluetooth or infrared!
-* Bluetooth: used the keypad as seen in Figure 4 to control the robot
-*	Infrared: press buttons as seen in Figure 5 to control the robot
+* Bluetooth: use the keypad to control the robot
+*	Infrared: press buttons to control the robot
 
 4) When done, enter “q” in the Bluetooth terminal to quit the program
 
+## Robot Control
+
+Bluetooth/Keypad Control:
+
+![BT/Keypad](https://raw.githubusercontent.com/WilliamLQin/Raspberry-Pi-Robot/master/Keypad%20Control.png)
+
+Infrared Remote Control:
+
+![Infrared](https://raw.githubusercontent.com/WilliamLQin/Raspberry-Pi-Robot/master/Remote%20Control.png)
 
