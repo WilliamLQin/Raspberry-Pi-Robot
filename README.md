@@ -17,16 +17,17 @@ robot_bt.py is the main file that runs and handles Bluetooth and infrared signal
 
 robot_controller.py handles all servo motor speed and direction control
 * It does this by setting the pulse width of signal to the servo motor to a certain width
-** Widths 500-1500 move backwards
-** Widths 1500-2500 move forwards
-** Width 0 stops
+  * Widths 500-1500 move backwards
+  * Widths 1500-2500 move forwards
+  * Width 0 stops
 
 robot_led.py controls the RGB LED strip and holds the various patterns
 * It maintains a queue of commands to set LEDs in an orderly fashion
 * It holds the robot state to determine which pattern to run when commands are issued
 
 ir_hasher.py decodes data from the infrared receiver
-* The Raspberry Pi has already been calibrated to the IR remote to receive certain hashes when buttons are pressed
+* The Raspberry Pi has already been calibrated to the IR remote (Car MP3) to receive certain hashes when buttons are pressed
+* You can change the hashes to your remote by changing the hashes constant in this file
 
 ## Getting Started
 
