@@ -37,7 +37,7 @@ ir_hasher.py decodes data from the infrared receiver
 sudo pigpiod
 ```
 
-* Run “sudo python robot_bt.py” to begin the program
+* Begin the program
 ```
 sudo python robot_bt.py
 ```
